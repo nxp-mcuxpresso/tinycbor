@@ -1,0 +1,12 @@
+NXP Software Content Register
+
+Package: tinycbor
+Version: 0.6.0
+Outgoing License: MIT
+License File: LICENSE
+Type of Content: source code, header files
+Description and comments: TinyCBOR
+Release Location: https://github.com/nxp-mcuxpresso/tinycbor
+Origin:
+      NXP (MIT)
+      Intel Corporation (MIT) - https://github.com/intel/TinyCBOR
