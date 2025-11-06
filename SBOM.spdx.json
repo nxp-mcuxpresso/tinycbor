@@ -1,0 +1,59 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "spdxVersion": "SPDX-2.3",
+  "creationInfo": {
+    "created": "2025-11-06T09:07:42Z",
+    "creators": [
+      "Organization: NXP"
+    ],
+    "licenseListVersion": "3.20"
+  },
+  "name": "tinycbor-v25.12.00-pvw2",
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "https://nxp.com/spdx/d56fcfa8-149b-4623-99c8-4c00291a74e9",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-package-c10ed98a-b888-4b06-89f8-6d52bf5e019a",
+      "name": "tinycbor",
+      "versionInfo": "0.6.0",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "homepage": "https://github.com/intel/tinycbor",
+      "downloadLocation": "https://github.com/intel/tinycbor/archive/refs/tags/v0.6.0.zip",
+      "originator": "Organization: Intel Corporation",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/intel/tinycbor@0.6.0",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-package-d56fcfa8-149b-4623-99c8-4c00291a74e9",
+      "name": "tinycbor",
+      "versionInfo": "v25.12.00-pvw2",
+      "licenseConcluded": "(MIT)",
+      "licenseDeclared": "(MIT)",
+      "downloadLocation": "https://github.com/nxp-mcuxpresso/tinycbor",
+      "originator": "Organization: NXP",
+      "supplier": "NOASSERTION",
+      "externalRefs": [],
+      "filesAnalyzed": false
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-package-d56fcfa8-149b-4623-99c8-4c00291a74e9",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-package-c10ed98a-b888-4b06-89f8-6d52bf5e019a"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-package-d56fcfa8-149b-4623-99c8-4c00291a74e9"
+    }
+  ]
+}
